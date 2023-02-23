@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+
+    <!-- userData--------------- -->
+    <div class="userData w-100 vh-100 d-none justify-content-center align-items-center bg-gradient " id="userData">
+<div class="userDataDetails w-100 h-25 bg-secondary d-flex justify-content-center align-items-center">
+
+<button class="btn btn-info" id="logOut">LogOut</button>
+<div class="divUserName" id="divUserName"></div>
+</div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- logIn -->
+<div class="logIn w-100 vh-100 d-flex justify-content-center align-items-center bg-gradient" id="logIn">
+
+<!-- div LogIn -->
+<div class="login w-50  py-5  px-5 d-flex flex-column bg-gradient " id="divLogin">
+
+<h2 class=" text-center p-3">Smart Login System</h2>
+<input type="email" name="" id="emailLogIn" placeholder="Enter Your Email" class="form-control my-1 p-2">
+<input type="password" name="" id="passwordLogIn" placeholder="Enter Your Password" class="form-control my-1 p-2 ">
+
+<button class="btn btn-outline-info p-2 px-5 mt-3 text-center" id="btnLogin">Login</button>
+
+<label for="" class="text-white text-white my-2 text-center lableSignUp" id="lableSignUp">Don't Have An Account?<a href="#"> SignUp</a> </label>
+</div>
+
+<!-- div SignUp -->
+<div class="sigUp w-50  py-5  px-5 d-none flex-column" id="divSignUp">
+
+  <h2 class=" text-center p-3">Smart SignUp System</h2>
+  
+  <input type="text" name="" id="nameSingUp" placeholder="Enter Your Name" class="form-control my-1 p-2">
+  <input type="email" name="" id="emailSignUp" placeholder="Enter Your Email" class="form-control my-1 p-2">
+  <input type="password" name="" id="passwordSignUp" placeholder="Enter Your Password" class="form-control my-1 p-2 ">
+  
+  <button class="btn btn-outline-success p-2 px-5 mt-3 text-center" id="btnSignUp">SignUp</button>
+    
+  <label for="" class="text-white text-white my-2 text-center lableSignIn" id="lableSignIn">You Have An Account?<a href="#" id="link"> Login</a> </label>
+  <label id="emailSignUpHave" for="" class="text-warning my-2 text-center d-none">Sorry, the email is already registered</label>
+  <label id="allInputRequired" for="" class="text-warning my-2 text-center d-none">All Input Required</label>
+  </div>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+
+  
+</body>
+</html>
